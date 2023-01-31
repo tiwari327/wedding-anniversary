@@ -1,0 +1,91 @@
+.background{
+	background-image: linear-gradient(to right top,#ff69b4,#ff1493,#dda0dd,#da70d6,#00ffff);
+	text-align: center;
+	font-size:30px;
+	font-family: sans-serif;
+	height: 800px;
+}
+.heading{
+	background-color:red;
+	text-align: center;
+	font-size:50px;
+	font-family:cursive;
+	color: white;
+	width: 1350px;
+	
+	
+}
+.link-type{
+/*color: royalblue;*/
+font-size: 15px;
+font-family:sans-serif;
+text-align: right;
+/*text-decoration: none;
+color: white;*/
+}
+
+.link-type a{
+text-decoration: none;
+color: white;
+padding-right: 13px;	
+}
+.text-type{
+	font-size: 30px;
+	font-family:sans-serif;
+	color:#FFE4E1;	
+}
+.image{
+	border:4px solid royalblue;
+	width: 300px;
+	height: 300px;
+
+}
+.type{
+	text-align: center;
+	font-size: 50px;
+	color: firebrick;
+	font-family: monospace;
+}
+.write{
+	 text-align:center;
+	 font-size: 25px ;
+	 color:#000080;
+	 font-family: sans-serif;
+	 back	 
+}
+.a{
+	color: #ffff00;
+	font-size: 30px;
+	font-family: cursive;
+
+}
+.background{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 19px;
+background-repeat: no-repeat;
+    transition: 5s;
+    background-size: cover;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out; 
+}
+@keyframes animate{
+    0%{
+        background-image: url("a1.jpeg") ;
+    }
+    25%{
+        background-image: url("b1.jpeg") ;
+    }
+    50%{
+        background-image: url("s.jpeg") ;
+    }
+    75%{
+        background-image: url("bb1.jpeg") ;
+    }
